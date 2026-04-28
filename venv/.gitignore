@@ -1,0 +1,22 @@
+# Python virtual environment
+venv/
+ENV/
+env/
+
+# Secret files (Passwords & API Keys)
+.env
+
+# Configuration files
+pyvenv.cfg
+
+# Output files
+*.csv
+books.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS system files
+.DS_Store
