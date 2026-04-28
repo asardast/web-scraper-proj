@@ -62,7 +62,7 @@ def scrape_books():
             'stock': book.find('p', class_='instock availability').text.strip()
         }
         extracted_data.append(data)
-        print(f"استخراج شد: {data['title']}")
+        print(f"Extracted: {data['title']}")
     
     # حالا داده‌ها را به جای فایل، به دیتابیس می‌فرستیم
     save_to_db(extracted_data)
