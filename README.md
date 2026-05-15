@@ -16,9 +16,9 @@ A robust Python-based web scraping tool designed to extract book information fro
 ## Installation & Setup:
 
 1. Clone the repository:
-   ```bash
+```bash
   git clone https://github.com/asardast/web-scraper-proj.git
-   cd web-scraper-proj
+  cd web-scraper-proj
 ```
 2. Set up Virtual Environment
 ```bash
