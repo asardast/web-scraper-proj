@@ -13,7 +13,7 @@ A robust Python-based web scraping tool designed to extract book information fro
 - **Libraries:** Requests, BeautifulSoup4, Psycopg2, Python-dotenv
 - **Database:** PostgreSQL
 
-## Installation & Setup
+## Installation & Setup:
 
 1. Clone the repository:
    ```bash
