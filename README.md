@@ -17,6 +17,21 @@ A robust Python-based web scraping tool designed to extract book information fro
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/asardast/web-scraper-proj.git](https://github.com/asardast/web-scraper-proj.git)
+  git clone https://github.com/asardast/web-scraper-proj.git
    cd web-scraper-proj
+```
+2. Set up Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # macOS/Linux
+# venv\Scripts\activate  # Windows
+```
+3. Install Dependencies
+```bash
+pip install beautifulsoup4 requests
+```
+### Usage:
+To run the scraper, execute:
+```bash
+python scraper_proj.py
 ```
